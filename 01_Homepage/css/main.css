@@ -91,6 +91,7 @@
 .header_icons {
     float: right;
     margin-top: 27px;
+    margin-left: 222.16px;
 }
 .card {
     font-family: 'Poppins';
@@ -99,5 +100,55 @@
     font-size: 11px;
     line-height: 120%;
     color: #4D4D4D;
-    float: ;
+}
+
+/* navbar */
+
+.navbar {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 300px;
+    gap: 701px;
+    width: 1400px;
+    height: 60px;
+    background-color: #333333;
+}
+
+.nav_list {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item {
+    width: 200px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #999999;
+    margin-right: ;
+}
+.nav_phone {
+    float: right;
+    width: 135px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.nav_item:hover, .nav_item:active {
+    color: #FFFFFF;
+    font-size: 16px;
 }
