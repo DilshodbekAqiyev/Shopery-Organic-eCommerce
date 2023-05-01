@@ -16,6 +16,7 @@
     margin: 0 auto;
 }
 
+
 .header_location {
     float: left;
     padding: 13px 0px;
@@ -51,13 +52,16 @@
     clear: both;
 }
  
+.search {
+    display: inline-block;
+}
+
 #search {
     float: left;
     margin-top: 27px;
     margin-left: 243px;
     width: 400px;
-    height: 50px;
-    padding-;
+    padding: 11px;
 }
 
 .header_logo {
@@ -83,15 +87,15 @@
     line-height: 120%;
     color: #FFFFFF;
     margin-top: 27px;
-    padding: 10px 24px;
+    padding: 12px 24px;
     background: #00B307;
     border-radius: 0px 6px 6px 0px;
+    border: none;
     cursor: pointer;
 }
 .header_icons {
     float: right;
     margin-top: 27px;
-    margin-left: 222.16px;
 }
 .card {
     font-family: 'Poppins';
@@ -102,7 +106,9 @@
     color: #4D4D4D;
 }
 
-/* navbar */
+
+/* navbar start  */
+
 
 .navbar {
     display: flex;
@@ -132,6 +138,7 @@
     line-height: 150%;
     color: #999999;
 }
+
 .nav_phone {
     display: flex;
     justify-content: space-between;
@@ -148,3 +155,13 @@
     color: #FFFFFF;
     font-size: 16px;
 }
+
+/* navbar end */
+
+
+
+/* main-banner  start */
+
+
+
+/* main-banner  end */
