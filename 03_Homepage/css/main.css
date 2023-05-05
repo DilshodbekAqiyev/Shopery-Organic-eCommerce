@@ -4,6 +4,8 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "Poppins";
+  transition: all 0.7s ease;
 }
 
 .container {
@@ -160,6 +162,90 @@
 .banner_wrapper {
   max-width: 1520px;
   height: 804px;
+  margin-top: 24px;
+  background: #edf2ee;
+  margin: 24px auto 0;
 }
+#banner .wrapper {
+  display: inline-block;
+}
+#banner .wrapper .Product_photo_banner {
+  width: 820px;
+  height: 485px;
+}
+
+.Product_info_banner {
+  width: 596px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 70px;
+  position: absolute;
+}
+.Product_info_banner h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #00b307;
+  margin-top: 182px;
+  z-index: 3;
+}
+.Product_info_banner h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  color: #1a1a1a;
+  margin-bottom: 28px;
+}
+#banner .Product_image {
+  float: right;
+  width: 820px;
+  height: 485px;
+  margin: 118px 33px 202px 0;
+}
+#banner .sale {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: #1a1a1a;
+}
+#banner .sale_banner {
+  color: #ff8a00;
+}
+#banner p {
+  padding: 12px 0 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #808080;
+}
+#banner .button_banner {
+  background: #00b307;
+  border-radius: 53px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  padding: 16px 40px;
+  cursor: pointer;
+  border: none;
+}
+#banner .button_banner:hover {
+  transform: scale(0.9);
+}
+
+/* Banner Owl Carousel */
+
+
+
+
+
+
 
 /* banner  end */
