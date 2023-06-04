@@ -1,0 +1,6 @@
+@use "../abstructs/varibles";
+@use "../abstructs/mixins";
+
+.home {
+    @include padding(0);
+}

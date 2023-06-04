@@ -1,0 +1,6 @@
+@use "abstructs/mixins";
+
+.header {
+    width: 100%;
+    @include margin(0 0 20px);
+}

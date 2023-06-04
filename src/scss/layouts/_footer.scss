@@ -1,0 +1,10 @@
+@use "../abstructs/varibles" as vars;
+@use "../abstructs/funksions" as funcs;
+@use "../abstructs/mixins";
+
+.footer {
+    @include padding(20px 40px);
+    text-align: center;
+    color: funcs.set-text-volor(vars.$primary-bg-color);
+    background-color: vars.$primary-bg-color;
+}

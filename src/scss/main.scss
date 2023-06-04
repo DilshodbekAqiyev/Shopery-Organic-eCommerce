@@ -1,16 +1,5 @@
-*,
-*::before,
-*::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none;
-   list-style: none;
-   -webkit-tap-highlight-color: transparent;
-}
-li {
-   list-style: none;
-}
-a {
-   text-decoration: none;
-}
+@use "base/base";
+@use "base/typography";
+@use "components/menu";
+@use "layouts";
+@use "pages/home";
