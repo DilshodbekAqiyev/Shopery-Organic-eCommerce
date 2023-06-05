@@ -1,0 +1,36 @@
+@use "./varibles" as *;
+@use "./mixins" as *;
+
+// helps to use @use file
+/*
+
+$color: v.$primary-color;
+
+.heading {
+    color: $color;
+}
+
+*/
+
+.btn {
+    font: {
+        family: "Poppins", sans-serif;
+        weight: 600;
+    }
+    line-height: 130%;
+    border: none;
+    cursor: pointer;
+
+    &-large {
+        @include padding(16px 40px);
+    }
+    &-medium {
+        @include padding(14px 32px);
+    }
+    &-small {
+        @include padding(10px 24px);
+    }
+    &-primary {
+        background-color: $primary__color;
+    }
+}
