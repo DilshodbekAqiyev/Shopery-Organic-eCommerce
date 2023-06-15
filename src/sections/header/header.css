@@ -60,4 +60,13 @@ $color: v.$primary-color;
 .container {
   max-width: 1320px;
   margin: 0 auto;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* styling start */
+#header .header__top {
+  padding: 12px 0;
+}
+#header .header__top .location img {
+  width: 15px;
+  height: 18px;
+}/*# sourceMappingURL=header.css.map */

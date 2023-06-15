@@ -8,7 +8,6 @@
         <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
 
         <!-- Stillar -->
-        <link rel="stylesheet" href="./src/css/main.css" />
         <link
             rel="stylesheet"
             href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -31,12 +30,29 @@
 
         <!-- Sarlavha -->
         <title>Shopery - Organic eCommerce</title>
+
+        <link rel="stylesheet" href="header.css" />
     </head>
 
     <body>
         <div class="home">
             <!-- header start -->
-            <header class="header"></header>
+            <header id="header">
+                <header class="header__top">
+                    <div class="location">
+                        <img
+                            src="../../images/header/location.svg"
+                            alt="location image"
+                            loading="lazy"
+                        />
+                        <a href="#">
+                            Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </a>
+                    </div>
+                </header>
+                <header class="header"></header>
+                <header class="header__bottom"></header>
+            </header>
             <!-- header end -->
         </div>
     </body>

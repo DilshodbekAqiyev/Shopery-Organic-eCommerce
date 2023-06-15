@@ -1,4 +1,7 @@
 @use "abstructs/mixins";
+@import '../components/varibles';
+@import '../base/typography';
+@import '../components/';
 
 .header {
     width: 100%;
