@@ -1,9 +1,22 @@
-@use "abstructs/mixins";
-@import '../components/varibles';
-@import '../base/typography';
-@import '../components/';
+@import "../components/menu";
+@import "../components/varibles";
+@import "../base/typography";
+@import "../base/base";
 
-.header {
-    width: 100%;
-    @include margin(0 0 20px);
+header {
+    .header__top {
+        width: 100%;
+        @include margin(0 0 20px);
+        @include padding(15px 0);
+        .location {
+            width: 370px;
+            img {
+                width: 15px;
+                height: 18px;
+            }
+            a {
+                color: $secondary-text-color;
+            }
+        }
+    }
 }
